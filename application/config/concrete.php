@@ -5,7 +5,7 @@ $memcachedDriver = [
         'options' => [
             'servers' => [
                 [
-                    'host' => 'scrn-prd-mem01.v7vom0.cfg.apne1.cache.amazonaws.com',
+                    'host' => '<<Memcached Endpoint>>xxxxxxxxxx.xxxxxxxxxx.cfg.xxxxxxxxxx.cache.amazonaws.com',
                     'port' => '11211',
                 ],
             ],
@@ -21,7 +21,7 @@ return [
             'memcached' => [
                 'servers' => [
                     [
-                        'host' => '<<Memcached Endpoint>>',
+                        'host' => '<<Memcached Endpoint>>xxxxxxxxxx.xxxxxxxxxx.cfg.xxxxxxxxxx.cache.amazonaws.com',
                         'port' => '11211',
                     ],
                 ],
